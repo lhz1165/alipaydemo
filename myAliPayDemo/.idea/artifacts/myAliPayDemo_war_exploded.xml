@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="myAliPayDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/myAliPayDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="myAliPayDemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="myAliPayDemo" />
+        </element>
+      </element>
+      <element id="library" level="project" name="alipay-sdk-java20170324180803" />
+    </root>
+  </artifact>
+</component>
